@@ -8,6 +8,8 @@
         background-image: url('file/background.jpg');
         background-size: 100%;
         font-family: georgia, serif;
+        background-repeat:repeat-x;
+        background-attachment:fixed;
     }
     /* Add a black background color to the top navigation */
     .topnav {
@@ -78,6 +80,9 @@
         background-color: rgba(170,0,204,0.5);
         width: 60%;
     }
+    .link {
+        color: aqua;
+    }
 </style>
 
 
@@ -109,6 +114,34 @@
         <h3>- Be respectful</h3>
         <h3>- Have fun!</h3>
         <br>
+        <br>
+    </div>
+    <br>
+    <div class="bodyelem">
+        <br>
+        <h1>Commands help:</h1>
+        <br>
+        <h2>TP:</h2>
+        <h3>/Spawn - Teleport to spawn</h3>
+        <h3>/Tpa - Teleport to random location</h3>
+        <p>Note: No way to teleport to other players</p>
+        <br>
+        <h2>Chat:</h2>
+        <h3>/channel (global,local,trade) or /ch (g,l,t)</h3>
+        <p>global - everyone can hear you (default chat)</p>
+        <p>local - everyone within 320 blocks from you can hear you. Use when talking to someone close by</p>
+        <p>trade - use when offering trades</p>
+        <h3>/global (msg), /local (msg), /trade (msg) or /g (msg), /l (msg), /t (msg)</h3>
+        <p>Sends a message in the respective channel without changing your channel</p>
+        <h3>/tell (msg) or /msg (msg)</h3>
+        <p>Talk to a player individually</p>
+        <h3>/reply (msg)</h3>
+        <p>Reply to the last message a player sent you</p>
+        <a class="link" href="../file/color-codes.jpg" target="_blank">Chat color code chart (VIP only)</a>
+        <br>
+        <h2>Others:</h2>
+        <h3>/voteall</h3>
+        <p>gives you the links to vote. Each time you vote you get 2 Diamonds</p>
         <br>
     </div>
 </center></body>
